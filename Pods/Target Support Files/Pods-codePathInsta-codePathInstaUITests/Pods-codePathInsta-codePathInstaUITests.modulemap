@@ -1,0 +1,6 @@
+framework module Pods_codePathInsta_codePathInstaUITests {
+  umbrella header "Pods-codePathInsta-codePathInstaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
