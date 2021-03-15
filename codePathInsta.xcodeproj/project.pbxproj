@@ -17,6 +17,7 @@
 		310758CB25FF17FB003C6F96 /* codePathInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310758CA25FF17FB003C6F96 /* codePathInstaUITests.swift */; };
 		31EA34AE25FF219A00DD6BDB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA34AD25FF219A00DD6BDB /* LoginViewController.swift */; };
 		31EA34B325FF21BA00DD6BDB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA34B225FF21BA00DD6BDB /* FeedViewController.swift */; };
+		31EA34B825FF404000DD6BDB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA34B725FF404000DD6BDB /* CameraViewController.swift */; };
 		76670925231CBAA5907FFD02 /* Pods_codePathInstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E822F235679894CAA6F08E1 /* Pods_codePathInstaTests.framework */; };
 		CE2F65E05F2AE3E3624C202E /* Pods_codePathInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBD13BA2015234537C6B798 /* Pods_codePathInsta.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		310758CC25FF17FB003C6F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EA34AD25FF219A00DD6BDB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		31EA34B225FF21BA00DD6BDB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		31EA34B725FF404000DD6BDB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		38D376BC2793D1B0B5234208 /* Pods-codePathInsta-codePathInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codePathInsta-codePathInstaUITests.release.xcconfig"; path = "Target Support Files/Pods-codePathInsta-codePathInstaUITests/Pods-codePathInsta-codePathInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		428F9BC2E0EE8901D447AC16 /* Pods-codePathInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codePathInsta.debug.xcconfig"; path = "Target Support Files/Pods-codePathInsta/Pods-codePathInsta.debug.xcconfig"; sourceTree = "<group>"; };
 		4406DC573EDCECEE6539F261 /* Pods-codePathInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codePathInsta.release.xcconfig"; path = "Target Support Files/Pods-codePathInsta/Pods-codePathInsta.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				310758B625FF17FA003C6F96 /* Info.plist */,
 				31EA34AD25FF219A00DD6BDB /* LoginViewController.swift */,
 				31EA34B225FF21BA00DD6BDB /* FeedViewController.swift */,
+				31EA34B725FF404000DD6BDB /* CameraViewController.swift */,
 			);
 			path = codePathInsta;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31EA34AE25FF219A00DD6BDB /* LoginViewController.swift in Sources */,
+				31EA34B825FF404000DD6BDB /* CameraViewController.swift in Sources */,
 				310758A925FF17F8003C6F96 /* AppDelegate.swift in Sources */,
 				31EA34B325FF21BA00DD6BDB /* FeedViewController.swift in Sources */,
 				310758AB25FF17F8003C6F96 /* SceneDelegate.swift in Sources */,
