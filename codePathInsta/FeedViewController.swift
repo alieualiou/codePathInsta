@@ -8,7 +8,8 @@
 
 import UIKit
 import Parse
-
+import AlamofireImage
+// no error before I import AlamofireImage
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
@@ -51,6 +52,13 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.usernameLabel.text = user.username
         
         cell.captionLabel.text = post["caption"] as! String
+        
+        let imageFile = post["image"] as! PFFileObject // no error before this line
+        let urlString = imageFile.url! // no error before this line
+        let url = URL(string: urlString)! // no error before this line
+        
+        cell.photoView.af_setImage(withURL: url) // no error before this line
+        
         
         
         return cell
