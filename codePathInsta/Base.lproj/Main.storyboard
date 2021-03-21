@@ -111,14 +111,14 @@
                                                         <constraint firstAttribute="width" secondItem="aca-39-bMd" secondAttribute="height" multiplier="199:212" id="GsF-hJ-7a9"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Alieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxE-mK-xXy">
-                                                    <rect key="frame" x="28" y="440" width="38" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxE-mK-xXy">
+                                                    <rect key="frame" x="16" y="440" width="41.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Wow I love CP!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp2-qc-LVR">
-                                                    <rect key="frame" x="74" y="440" width="161" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wow I love CP!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp2-qc-LVR">
+                                                    <rect key="frame" x="65.5" y="440" width="161" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -126,6 +126,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="LxE-mK-xXy" firstAttribute="top" secondItem="aca-39-bMd" secondAttribute="bottom" constant="8" id="0zl-Yh-Gli"/>
+                                                <constraint firstItem="Bp2-qc-LVR" firstAttribute="leading" secondItem="LxE-mK-xXy" secondAttribute="trailing" constant="8" id="3n5-DS-UJm"/>
                                                 <constraint firstAttribute="trailing" secondItem="aca-39-bMd" secondAttribute="trailing" constant="8" id="7fg-xu-OJJ"/>
                                                 <constraint firstItem="aca-39-bMd" firstAttribute="leading" secondItem="HrJ-LZ-OI3" secondAttribute="leading" constant="8" id="Avl-Ek-jAU"/>
                                                 <constraint firstItem="aca-39-bMd" firstAttribute="top" secondItem="HrJ-LZ-OI3" secondAttribute="top" constant="8" id="BfE-Um-tvJ"/>
@@ -133,10 +134,14 @@
                                                 <constraint firstItem="LxE-mK-xXy" firstAttribute="top" secondItem="aca-39-bMd" secondAttribute="bottom" constant="8" id="DzD-N2-FEo"/>
                                                 <constraint firstItem="Bp2-qc-LVR" firstAttribute="top" secondItem="aca-39-bMd" secondAttribute="bottom" constant="8" id="Gwj-O3-hAG"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bp2-qc-LVR" secondAttribute="bottom" constant="8" id="ORh-J8-moI"/>
-                                                <constraint firstAttribute="trailing" secondItem="Bp2-qc-LVR" secondAttribute="trailing" constant="8" id="TtW-vf-m6w"/>
+                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="top" secondItem="aca-39-bMd" secondAttribute="bottom" constant="8" id="RF2-bq-Iwv"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Bp2-qc-LVR" secondAttribute="trailing" constant="8" id="TtW-vf-m6w"/>
+                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="leading" secondItem="HrJ-LZ-OI3" secondAttribute="leading" constant="8" id="YZQ-MX-BdE"/>
+                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="leading" secondItem="HrJ-LZ-OI3" secondAttribute="leading" constant="16" id="ZQ1-fs-Prj"/>
                                                 <constraint firstItem="Bp2-qc-LVR" firstAttribute="leading" secondItem="LxE-mK-xXy" secondAttribute="trailing" constant="8" id="cwf-ux-gNs"/>
                                                 <constraint firstItem="Bp2-qc-LVR" firstAttribute="leading" secondItem="LxE-mK-xXy" secondAttribute="trailing" constant="8" id="djZ-6u-crd"/>
-                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="leading" secondItem="HrJ-LZ-OI3" secondAttribute="leadingMargin" constant="8" id="e02-Ax-yVE"/>
+                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="leading" secondItem="HrJ-LZ-OI3" secondAttribute="leadingMargin" constant="16" id="e02-Ax-yVE"/>
+                                                <constraint firstItem="LxE-mK-xXy" firstAttribute="top" secondItem="aca-39-bMd" secondAttribute="bottom" constant="8" id="hAb-XG-eXP"/>
                                                 <constraint firstItem="Bp2-qc-LVR" firstAttribute="leading" secondItem="LxE-mK-xXy" secondAttribute="trailing" constant="8" id="yev-c8-CZR"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -144,6 +149,42 @@
                                             <outlet property="captionLabel" destination="Bp2-qc-LVR" id="LiE-V7-MxU"/>
                                             <outlet property="photoView" destination="aca-39-bMd" id="Tyb-70-FlS"/>
                                             <outlet property="usernameLabel" destination="LxE-mK-xXy" id="Iqk-nW-BP4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentCell" id="N94-m5-79d" customClass="commentCell" customModule="codePathInsta" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="497" width="414" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N94-m5-79d" id="dpy-iy-2Ys">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbE-wo-4pL">
+                                                    <rect key="frame" x="16" y="8" width="41.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This a comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxp-K8-ejl">
+                                                    <rect key="frame" x="65.5" y="8" width="122" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mxp-K8-ejl" secondAttribute="trailing" constant="8" id="293-eZ-odt"/>
+                                                <constraint firstAttribute="bottom" secondItem="TbE-wo-4pL" secondAttribute="bottom" constant="8" id="2VF-y6-ZJD"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Mxp-K8-ejl" secondAttribute="bottom" constant="8" id="Ks3-Yu-Yed"/>
+                                                <constraint firstItem="Mxp-K8-ejl" firstAttribute="leading" secondItem="TbE-wo-4pL" secondAttribute="trailing" constant="8" id="QT6-tK-CF6"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TbE-wo-4pL" secondAttribute="bottom" constant="8" id="Wrc-M1-c3N"/>
+                                                <constraint firstItem="Mxp-K8-ejl" firstAttribute="top" secondItem="dpy-iy-2Ys" secondAttribute="top" constant="8" id="qDU-5b-7HY"/>
+                                                <constraint firstItem="TbE-wo-4pL" firstAttribute="leading" secondItem="dpy-iy-2Ys" secondAttribute="leading" constant="16" id="qYO-xU-SNU"/>
+                                                <constraint firstItem="TbE-wo-4pL" firstAttribute="top" secondItem="dpy-iy-2Ys" secondAttribute="top" constant="8" id="uc1-CM-BLl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="Mxp-K8-ejl" id="cor-Yd-VcP"/>
+                                            <outlet property="nameLabel" destination="TbE-wo-4pL" id="R7y-wm-JeN"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
