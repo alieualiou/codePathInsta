@@ -7,9 +7,10 @@ target 'codePathInsta' do
 
   # Pods for codePathInsta
 
-   pod 'AlamofireImage'
+  pod 'AlamofireImage'
+  pod 'Parse'
+  pod 'MessageInputBar'
    
-   pod 'Parse'
 
   target 'codePathInstaTests' do
     inherit! :search_paths
